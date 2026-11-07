@@ -1,4 +1,4 @@
-﻿/* =========================================================
+/* =========================================================
    Rose（丞莘）— 喀斯特地貌针织面料再造与服装设计
    Visual system: limestone paper / ink black / mineral grey
    ========================================================= */
@@ -1050,14 +1050,16 @@ body{transition:opacity .3s var(--ease)}
 .tile--wide{grid-column:span 7;aspect-ratio:7/5}
 .tile--tall{grid-column:span 5;aspect-ratio:5/7}
 .tile--pan{grid-column:span 12;aspect-ratio:21/7}
-.tile canvas{
+.tile img{
   position:absolute;
   inset:0;
   width:100%;
   height:100%;
+  object-fit:cover;
+  object-position:center;
   transition:transform 1.8s var(--ease-out),filter 1.2s var(--ease);
 }
-.tile:hover canvas{transform:scale(1.045);filter:brightness(1.06)}
+.tile:hover img{transform:scale(1.045);filter:brightness(1.06)}
 .tile figcaption{
   position:absolute;
   left:0;right:0;bottom:0;

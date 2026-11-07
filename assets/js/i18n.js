@@ -366,7 +366,7 @@
     /* ---------- gallery ---------- */
     'gal.eyebrow': { zh: '<span>05</span>纹理图集 / TEXTURE ATLAS', en: '<span>05</span>TEXTURE ATLAS' },
     'gal.display': { zh: '把地貌，<em>放大到纤维。</em>', en: 'Terrain, <em>magnified to the fibre.</em>' },
-    'gal.intro': { zh: '八幅由代码生成的纹理：三幅为组织特写，五幅为地貌意象。它们不是照片，而是参数——密度、孔径、灰阶与流向——在屏幕上的显影。', en: 'Eight textures generated in code: three stitch close-ups and five terrain studies. They are not photographs but parameters — density, aperture, grey level and flow — developed on screen.' },
+    'gal.intro': { zh: '八幅织物切片：三幅为组织特写，五幅为地貌意象的织物转译。密度、孔径、灰阶与流向，最终都落在纤维的起伏上。', en: 'Eight fabric fragments: three stitch studies and five landforms translated into cloth. Density, aperture, grey level and flow all resolve into the relief of fibre.' },
     'tile1.name': { zh: '凹凸 · 纵向凸条', en: 'Relief · Longitudinal Ribs' },
     'tile2.name': { zh: '挑孔 · 孔缘', en: 'Eyelet · Aperture Edge' },
     'tile3.name': { zh: '提花 · 层理块面', en: 'Jacquard · Stratal Blocks' },

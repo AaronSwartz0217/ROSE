@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN" data-lang="zh">
 <head>
 <meta charset="UTF-8">
@@ -863,41 +863,65 @@ document.documentElement.classList.add('js');
     </header>
 
     <p class="sec-intro" data-i18n="gal.intro" data-bi>
-      八幅由代码生成的纹理：三幅为组织特写，五幅为地貌意象。
-      它们不是照片，而是参数——密度、孔径、灰阶与流向——在屏幕上的显影。
+      八幅织物切片：三幅为组织特写，五幅为地貌意象的织物转译。
+      密度、孔径、灰阶与流向，最终都落在纤维的起伏上。
     </p>
 
     <div class="atlas">
       <figure class="tile tile--wide" data-reveal>
-        <canvas data-tex="ribs" data-seed="11" data-i18n-aria="tile.a1" aria-label="凹凸组织纵向凸条纹理"></canvas>
+        <img src="assets/img/rwd/tex-01-ribs-lg.jpg"
+             srcset="assets/img/rwd/tex-01-ribs-sm.jpg 900w, assets/img/rwd/tex-01-ribs-lg.jpg 1600w"
+             sizes="(max-width:900px) 100vw, 55vw" width="1600" height="1143"
+             loading="lazy" decoding="async" data-i18n-alt="tile.a1" alt="凹凸组织纵向凸条纹理">
         <figcaption><span class="tile-no">01</span><span class="tile-name" data-i18n="tile1.name">凹凸 · 纵向凸条</span><span class="tile-en">RELIEF RIB / 7G</span></figcaption>
       </figure>
       <figure class="tile tile--tall" data-reveal style="--d:.08s">
-        <canvas data-tex="holes" data-seed="23" data-i18n-aria="tile.a2" aria-label="挑孔组织孔缘纹理"></canvas>
+        <img src="assets/img/rwd/tex-02-holes-lg.jpg"
+             srcset="assets/img/rwd/tex-02-holes-sm.jpg 720w, assets/img/rwd/tex-02-holes-lg.jpg 1200w"
+             sizes="(max-width:900px) 100vw, 38vw" width="1200" height="1680"
+             loading="lazy" decoding="async" data-i18n-alt="tile.a2" alt="挑孔组织孔缘纹理">
         <figcaption><span class="tile-no">02</span><span class="tile-name" data-i18n="tile2.name">挑孔 · 孔缘</span><span class="tile-en">EYELET EDGE / 12G</span></figcaption>
       </figure>
       <figure class="tile" data-reveal>
-        <canvas data-tex="jacquard" data-seed="37" data-i18n-aria="tile.a3" aria-label="移针提花层理块面纹理"></canvas>
+        <img src="assets/img/rwd/tex-03-jacquard-lg.jpg"
+             srcset="assets/img/rwd/tex-03-jacquard-sm.jpg 720w, assets/img/rwd/tex-03-jacquard-lg.jpg 1600w"
+             sizes="(max-width:900px) 100vw, 32vw" width="1600" height="1600"
+             loading="lazy" decoding="async" data-i18n-alt="tile.a3" alt="移针提花层理块面纹理">
         <figcaption><span class="tile-no">03</span><span class="tile-name" data-i18n="tile3.name">提花 · 层理块面</span><span class="tile-en">JACQUARD STRATA</span></figcaption>
       </figure>
       <figure class="tile" data-reveal style="--d:.08s">
-        <canvas data-tex="ridges" data-seed="41" data-i18n-aria="tile.a4" aria-label="峰林柱状秩序意象"></canvas>
+        <img src="assets/img/rwd/tex-04-ridges-lg.jpg"
+             srcset="assets/img/rwd/tex-04-ridges-sm.jpg 720w, assets/img/rwd/tex-04-ridges-lg.jpg 1600w"
+             sizes="(max-width:900px) 100vw, 32vw" width="1600" height="1600"
+             loading="lazy" decoding="async" data-i18n-alt="tile.a4" alt="峰林柱状秩序意象">
         <figcaption><span class="tile-no">04</span><span class="tile-name" data-i18n="tile4.name">峰林 · 柱状秩序</span><span class="tile-en">FENGLIN</span></figcaption>
       </figure>
       <figure class="tile" data-reveal style="--d:.16s">
-        <canvas data-tex="cavern" data-seed="53" data-i18n-aria="tile.a5" aria-label="溶洞穹顶光隙意象"></canvas>
+        <img src="assets/img/rwd/tex-05-cavern-lg.jpg"
+             srcset="assets/img/rwd/tex-05-cavern-sm.jpg 720w, assets/img/rwd/tex-05-cavern-lg.jpg 1600w"
+             sizes="(max-width:900px) 100vw, 32vw" width="1600" height="1600"
+             loading="lazy" decoding="async" data-i18n-alt="tile.a5" alt="溶洞穹顶光隙意象">
         <figcaption><span class="tile-no">05</span><span class="tile-name" data-i18n="tile5.name">溶洞 · 穹顶光隙</span><span class="tile-en">CAVERN LIGHT</span></figcaption>
       </figure>
       <figure class="tile" data-reveal>
-        <canvas data-tex="grooves" data-seed="67" data-i18n-aria="tile.a6" aria-label="石芽与溶痕侵蚀沟槽意象"></canvas>
+        <img src="assets/img/rwd/tex-06-grooves-lg.jpg"
+             srcset="assets/img/rwd/tex-06-grooves-sm.jpg 720w, assets/img/rwd/tex-06-grooves-lg.jpg 1600w"
+             sizes="(max-width:900px) 100vw, 32vw" width="1600" height="1600"
+             loading="lazy" decoding="async" data-i18n-alt="tile.a6" alt="石芽与溶痕侵蚀沟槽意象">
         <figcaption><span class="tile-no">06</span><span class="tile-name" data-i18n="tile6.name">石芽 · 侵蚀沟槽</span><span class="tile-en">KARREN GROOVES</span></figcaption>
       </figure>
       <figure class="tile" data-reveal style="--d:.08s">
-        <canvas data-tex="flow" data-seed="71" data-i18n-aria="tile.a7" aria-label="地下河侵蚀流痕意象"></canvas>
+        <img src="assets/img/rwd/tex-07-flow-lg.jpg"
+             srcset="assets/img/rwd/tex-07-flow-sm.jpg 720w, assets/img/rwd/tex-07-flow-lg.jpg 1600w"
+             sizes="(max-width:900px) 100vw, 32vw" width="1600" height="1600"
+             loading="lazy" decoding="async" data-i18n-alt="tile.a7" alt="地下河侵蚀流痕意象">
         <figcaption><span class="tile-no">07</span><span class="tile-name" data-i18n="tile7.name">地下河 · 流痕</span><span class="tile-en">SUBTERRANEAN FLOW</span></figcaption>
       </figure>
       <figure class="tile tile--pan" data-reveal style="--d:.16s">
-        <canvas data-tex="strata" data-seed="83" data-i18n-aria="tile.a8" aria-label="岩层断面与风化灰阶意象"></canvas>
+        <img src="assets/img/rwd/tex-08-strata-lg.jpg"
+             srcset="assets/img/rwd/tex-08-strata-sm.jpg 900w, assets/img/rwd/tex-08-strata-lg.jpg 1800w"
+             sizes="(max-width:900px) 100vw, 100vw" width="1800" height="600"
+             loading="lazy" decoding="async" data-i18n-alt="tile.a8" alt="岩层断面与风化灰阶意象">
         <figcaption><span class="tile-no">08</span><span class="tile-name" data-i18n="tile8.name">岩层 · 风化灰阶</span><span class="tile-en">WEATHERED GREY</span></figcaption>
       </figure>
     </div>

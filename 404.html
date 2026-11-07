@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0a0a0b">
+<title>404 · 页面不存在 / Page Not Found — 丞莘 ROSE</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a0b'/%3E%3Cpath d='M5 25 L12 9 L19 18 L27 7' fill='none' stroke='%23d9d5cb' stroke-width='1.3'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --ink:#0a0a0b;--paper:#f2f0ea;--ash:#85837c;--mineral:#7f8d84;
+    --serif:"Source Han Serif SC","Noto Serif SC","Songti SC","STSong","SimSun",serif;
+    --sans:"Helvetica Neue","Helvetica","PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;min-height:100svh;
+    display:flex;flex-direction:column;justify-content:space-between;
+    padding:clamp(24px,5vw,64px);
+    background:radial-gradient(120% 90% at 50% 0%,#16181a 0%,#0a0a0b 62%,#070708 100%);
+    color:var(--paper);font-family:var(--sans);
+    -webkit-font-smoothing:antialiased;
+  }
+  .top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+  .brand{font-family:var(--serif);font-size:17px;letter-spacing:.2em}
+  .brand small{display:block;margin-top:6px;font-family:var(--sans);font-size:8px;letter-spacing:.32em;color:rgba(240,236,228,.45)}
+  .no{font-size:9px;letter-spacing:.28em;color:var(--mineral)}
+  .mid{align-self:flex-start;max-width:760px;margin:clamp(40px,12vh,120px) 0}
+  h1{
+    margin:0 0 26px;
+    font-family:var(--serif);font-weight:400;
+    font-size:clamp(46px,10vw,120px);line-height:1;letter-spacing:.04em;
+  }
+  h1 em{font-style:normal;color:rgba(240,236,228,.42)}
+  p{margin:0;font-size:13px;line-height:2;color:rgba(240,236,228,.62);max-width:560px}
+  p.en{margin-top:10px;font-size:11px;letter-spacing:.04em;color:rgba(240,236,228,.4)}
+  .back{
+    display:inline-block;margin-top:34px;padding:12px 22px;
+    border:1px solid rgba(240,236,228,.3);
+    font-size:10px;letter-spacing:.2em;color:var(--paper);text-decoration:none;
+    transition:background-color .4s ease,color .4s ease;
+  }
+  .back:hover{background:var(--paper);color:var(--ink)}
+  .back:focus-visible{outline:1px solid var(--mineral);outline-offset:4px}
+  .foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:8.5px;letter-spacing:.16em;color:rgba(240,236,228,.32)}
+  svg{display:block;width:min(340px,60vw);height:auto;margin-bottom:26px}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <p class="brand">丞莘<small>ROSE / KARST KNIT ARCHIVE</small></p>
+  <p class="no">ERROR 404</p>
+</div>
+
+<div class="mid">
+  <svg viewBox="0 0 340 60" aria-hidden="true">
+    <path d="M2 52 L48 18 L86 40 L128 10 L168 44 L214 22 L258 46 L300 16 L338 40"
+          fill="none" stroke="#7f8d84" stroke-width="1.2" stroke-opacity=".8"/>
+  </svg>
+  <h1>这一层岩，<br><em>还没有沉积。</em></h1>
+  <p>你访问的页面不存在，或已被移动。可以回到首页继续浏览三个面料系列。</p>
+  <p class="en">The page you are looking for does not exist or has been moved. Return to the index to browse the collections.</p>
+  <a class="back" id="homeLink" href="./">返回首页 / BACK TO HOME</a>
+</div>
+
+<div class="foot">
+  <span>© 2026 丞莘 · ROSE</span>
+  <span>KARST KNIT ARCHIVE</span>
+</div>
+
+<script>
+  (function () {
+    var a = document.getElementById('homeLink');
+    if (!a) return;
+    var seg = location.pathname.split('/').filter(Boolean);
+    var root = '/';
+    if (/\.github\.io$/.test(location.hostname) && seg.length > 1) root = '/' + seg[0] + '/';
+    a.setAttribute('href', root);
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# 毕业设计概念展示站点 / Graduation project site

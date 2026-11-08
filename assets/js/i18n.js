@@ -219,6 +219,17 @@
     's3.look3': { zh: '<span>03</span>蚀 · 块面拼接裙', en: '<span>03</span>Erosion · Panelled skirt' },
     's3.look4': { zh: '<span>04</span>岩 · 围裹式大衣', en: '<span>04</span>Rock · Wrapped coat' },
 
+    /* ---------- technical flats ---------- */
+    'flat.eyebrow': { zh: '款式图 / TECHNICAL FLATS', en: 'TECHNICAL FLATS' },
+    'flat.title': { zh: '三套代表款的结构线', en: 'Structure lines of three representative looks' },
+    'flat.note': { zh: '按系列各取一套，呈现廓形、分割与工艺位置；完整十二套款式图随作品集交付。', en: 'One look from each series, showing silhouette, panelling and construction; the full twelve flats are delivered with the portfolio.' },
+    'flat.cap1': { zh: '系列 01 · 脊 / 立领长外套', en: 'Series 01 · Ridge / Stand-collar long coat' },
+    'flat.cap2': { zh: '系列 02 · 穴 / 镂空长罩衫', en: 'Series 02 · Cave / Openwork tunic' },
+    'flat.cap3': { zh: '系列 03 · 岩 / 围裹式大衣', en: 'Series 03 · Rock / Wrapped coat' },
+    'flat.a1': { zh: '系列 01 立领长外套款式图', en: 'Technical flat of the series 01 stand-collar long coat' },
+    'flat.a2': { zh: '系列 02 镂空长罩衫款式图', en: 'Technical flat of the series 02 openwork tunic' },
+    'flat.a3': { zh: '系列 03 围裹式大衣款式图', en: 'Technical flat of the series 03 wrapped coat' },
+
     /* ---------- field notes ---------- */
     'field.eyebrow': { zh: '<span>03</span>自然对照 / FIELD NOTES', en: '<span>03</span>FIELD NOTES' },
     'field.display': { zh: '地貌先于针法，<br><em>是第一层组织。</em>', en: 'Terrain precedes stitch —<br><em>it is the first structure.</em>' },
@@ -366,7 +377,7 @@
     /* ---------- gallery ---------- */
     'gal.eyebrow': { zh: '<span>05</span>纹理图集 / TEXTURE ATLAS', en: '<span>05</span>TEXTURE ATLAS' },
     'gal.display': { zh: '把地貌，<em>放大到纤维。</em>', en: 'Terrain, <em>magnified to the fibre.</em>' },
-    'gal.intro': { zh: '八幅织物切片：三幅为组织特写，五幅为地貌意象的织物转译。密度、孔径、灰阶与流向，最终都落在纤维的起伏上。', en: 'Eight fabric fragments: three stitch studies and five landforms translated into cloth. Density, aperture, grey level and flow all resolve into the relief of fibre.' },
+    'gal.intro': { zh: '九幅织物切片：四幅为组织特写，五幅为地貌意象的织物转译。密度、孔径、灰阶与流向，最终都落在纤维的起伏上。', en: 'Nine fabric fragments: four stitch studies and five landforms translated into cloth. Density, aperture, grey level and flow all resolve into the relief of fibre.' },
     'tile1.name': { zh: '凹凸 · 纵向凸条', en: 'Relief · Longitudinal Ribs' },
     'tile2.name': { zh: '挑孔 · 孔缘', en: 'Eyelet · Aperture Edge' },
     'tile3.name': { zh: '提花 · 层理块面', en: 'Jacquard · Stratal Blocks' },
@@ -374,7 +385,8 @@
     'tile5.name': { zh: '溶洞 · 穹顶光隙', en: 'Cavern · Vault Light' },
     'tile6.name': { zh: '石芽 · 侵蚀沟槽', en: 'Karren · Solution Grooves' },
     'tile7.name': { zh: '地下河 · 流痕', en: 'Underground River · Flow Marks' },
-    'tile8.name': { zh: '岩层 · 风化灰阶', en: 'Strata · Weathered Grey' },
+    'tile8.name': { zh: '绞花 · 辫状转折', en: 'Cable · Braided Turn' },
+    'tile9.name': { zh: '岩层 · 风化灰阶', en: 'Strata · Weathered Grey' },
     'tile.a1': { zh: '凹凸组织纵向凸条纹理', en: 'Longitudinal rib texture of a relief stitch' },
     'tile.a2': { zh: '挑孔组织孔缘纹理', en: 'Aperture-edge texture of an eyelet structure' },
     'tile.a3': { zh: '移针提花层理块面纹理', en: 'Stratal block texture of a transfer jacquard' },
@@ -382,7 +394,8 @@
     'tile.a5': { zh: '溶洞穹顶光隙意象', en: 'Image of light through a cavern vault' },
     'tile.a6': { zh: '石芽与溶痕侵蚀沟槽意象', en: 'Image of karren and solution grooves' },
     'tile.a7': { zh: '地下河侵蚀流痕意象', en: 'Image of erosion marks left by an underground river' },
-    'tile.a8': { zh: '岩层断面与风化灰阶意象', en: 'Image of a stratal section and weathered grey tones' },
+    'tile.a8': { zh: '绞花组织辫状转折纹理', en: 'Braided cable texture of a cable knit' },
+    'tile.a9': { zh: '岩层断面与风化灰阶意象', en: 'Image of a stratal section and weathered grey tones' },
 
     /* ---------- about ---------- */
     'about.eyebrow': { zh: '<span>06</span>关于 / ABOUT', en: '<span>06</span>ABOUT' },
